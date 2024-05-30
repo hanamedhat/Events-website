@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <button id="naaav">Nav Bar</button>
+
+    <nav class="colored" id="navBar">
+        <!-- unordered list lista msh mtrtma gwaha list items ely hya el li -->
+        <ul id="ull">
+            <a href=""><img class="logo" src="img/logo_transparent-white.png" alt=""></a>
+            <li><a href="index.html"><i class="fa-solid fa-house icon"></i> Home</a></li>
+            <li><a href="events.html"><i class="fa-solid fa-calendar icon"></i> Our Events</a></li>
+            <li><a href="Sponsores.html"><i class="fa-solid fa-people-group icon"></i> Sponsores</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket icon"></i>login</a></li>
+        </ul>
+        <div>
+            <i class="fa-solid fa-magnifying-glass search"></i>
+            <input type="text"  placeholder="   Search">
+        </div>
+    </nav>
+  <div class="containerr">
+    <section class="bg" id="bg">
+      <h1>Sign in to get all the new events</h1>
+      <p style="color:white;">ConnecTwo you will be connected</p>
+    </section>
+    <form method="post">
+      <div class="login">
+        <label class="labell" >E-mail:</label><br>
+        <input class="inputt" name="email" type="email" placeholder="E-mail"><br>
+        <label class="labell">Password:</label><br>
+        <input class="inputt" name="password" type="password" placeholder="Password"><br>
+        <input class="btnn" name="signin" type="submit"><br>
+    </form>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-link" style="color:#82C3EC ;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    You Don't have an account
+</button>
+</div>
+  <center>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+            <form method="post">
+                <label for="" class="labelll">First Name:</label><br>
+                <input class="inputt" type="text" name="fname" placeholder="First Name"><br>
+                <label for="" class="labelll">Last Name:</label><br>
+                <input class="inputt" type="text" name="sname" placeholder="Last Name"><br>
+                <label for="" class="labelll">Age:</label><br>
+                <input class="inputt" name="birth" type="number" placeholder="Age"><br>
+                <label for="" class="labelll">Phone Number:</label><br>
+                <input class="inputt" name="phone" type="number" placeholder="Phone Number"><br>
+                <label for="" class="labelll">E-mail:</label><br>
+                <input class="inputt" name="email" type="email" placeholder="E-mail"><br>
+                <label for="" class="labelll">Password:</label><br>
+                <input class="inputt" name="password" type="password" placeholder="Password"><br>
+                <label for="" class="labelll">Confirm Password:</label><br>
+                <input class="inputt" name="confirm" type="password" placeholder="Confirm Password"><br>
+                <input type="submit" name="register">
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</center>
+   
+</div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+ 
+</script>
+<script src="nav.js"></script>
+</body>
+</html>
